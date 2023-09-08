@@ -1,32 +1,22 @@
 html {
-    background-color: pink;
+    background-color: rgb(202, 133, 35);
     font-family: arial;
+
+    
 }
 
 header {
     background-color: rgb(253, 230, 230);
 }
 
-#linha {
-    display: flex;
-    border: 5px solid black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0px;
 
-}
 
 .nomeab {
     display: flex;
     justify-content: center;
-    border: 1px solid white;
-    background-color: #fff;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0px;
-    padding: 5px 0px 10px 10px;
 
 }
 
@@ -37,33 +27,34 @@ header {
     width: 100%;
     padding: 0px;
     position: fixed;
-    background-color: rgb(80, 186, 172);
+    background-color: rgb(187, 126, 86);
+    top: 0;
 }
 
 .sigla a {
     background-color: #fff;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 #links {
     display: flex;
-    border: 1px solid yellow;
     justify-content: center;
-    margin-top: 50px;
     background-color: blueviolet;
 }
 
+.fotoprincipal {
+    width: 100%;
+    margin-top: 45px;
+}
 
 
 a {
-    color:rgb(167, 121, 121);
+    color: black;
 }
 
 .b {
     display: inline-block;
-   
-    border: 1px solid white;
+
     padding: 1px;
     margin: 8px;
 }
