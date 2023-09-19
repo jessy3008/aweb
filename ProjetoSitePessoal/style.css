@@ -1,60 +1,145 @@
-html {
-    background-color: rgb(202, 133, 35);
-    font-family: arial;
-
-    
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 header {
-    background-color: rgb(253, 230, 230);
+    margin: auto;
+    max-width: 1844px;
+    max-height: 90px;
+    background-color: #975F6D;
+    position: sticky;
+    top: 0%;
+    flex-wrap: wrap;
 }
 
+.cabeçalho > div > img {
+    margin: 5px;
+    width: 150px;
+    height: 80px;
+    padding-left: 0px;
+}
 
-
-.nomeab {
+.cabeçalho {
     display: flex;
-    justify-content: center;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 0px;
-
-}
-
-.sigla {
-    justify-content: center;
     align-items: center;
-    left: 0;
-    width: 100%;
-    padding: 0px;
-    position: fixed;
-    background-color: rgb(187, 126, 86);
-    top: 0;
-}
-
-.sigla a {
-    background-color: #fff;
+    justify-content: space-between;
+    padding-right: 40px;
     
 }
 
-#links {
+.cabeçalho > div > a {
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.cabeçalho > div > a:hover {
+    color: #E794A8;
+    font-size: 18px;
+}
+
+@media (max-width: 400px){
+    header {
+        max-height: 150px;
+    }
+    .cabeçalho > div > a {
+        display: flex;
+        margin-top: 5px;
+    }
+    .cabeçalho > div > img {
+        margin-left: 30px;
+    }
+ 
+}
+
+/*hero*/
+
+.hero {
+    margin: auto;
+    background-image: url('imagens/fundoHero.png');
+    max-width: 1844px;
+    height: 1024px;
+}
+@font-face {
+    font-family: "fontenova";
+    src: url("fonte/Bartleen Script");
+}
+
+.elementosHero > div > figure > img {
+    width: 300px;
+    height: 350px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.textoHero > div > a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.textoHero > .buttonHero {
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+    background-color:#E794A8;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
 }
 
-.fotoprincipal {
-    width: 100%;
-    margin-top: 45px;
+.elementosHero {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.473);
+    max-width: 1844px;
+    height: 1024px;
+    justify-content: space-around;
 }
 
 
-a {
-    color: black;
+.hero > .elementosHero {
+    display: flex;
+    align-items: center;
 }
 
-.b {
-    display: inline-block;
+@media (max-width: 400px) {
+    .elementosHero > div > figure > img {
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+    }
 
-    padding: 1px;
-    margin: 8px;
+    .hero > .elementosHero {
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    h3 {
+        color: rgba(255, 255, 255, 0.76);
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .textoHero > .buttonHero {
+        width: 150px;
+        height: 35px;
+    }
+}
+
+.sobremim {
+    background-color: #975F6D;
 }
