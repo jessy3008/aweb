@@ -15,8 +15,9 @@ header {
 
 .cabeçalho > div > img {
     margin: 5px;
-    width: 150px;
-    height: 80px;
+    margin-left: 10px;
+    width: 190px;
+    height: 90px;
     padding-left: 0px;
 }
 
@@ -62,16 +63,12 @@ header {
     margin: auto;
     background-image: url('imagens/fundoHero.png');
     max-width: 1844px;
-    height: 1024px;
-}
-@font-face {
-    font-family: "fontenova";
-    src: url("fonte/Bartleen Script");
+    height: 900px;
 }
 
 .elementosHero > div > figure > img {
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 450px;
 }
 
 h1 {
@@ -105,7 +102,7 @@ h3 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.473);
     max-width: 1844px;
-    height: 1024px;
+    height: 1000px;
     justify-content: space-around;
 }
 
@@ -140,6 +137,38 @@ h3 {
     }
 }
 
+/*sobre mim*/
+
 .sobremim {
+    margin: auto;
+    max-width: 1844px;
+    height: 695px;
     background-color: #975F6D;
 }
+
+#h1SM {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.elementosSM > div > p {
+    color: white;
+    height: 100px;
+    width: 800px;
+    font-size: 20px;
+
+}
+
+.elementosSM > div {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+}
+
+.elementosSM {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
