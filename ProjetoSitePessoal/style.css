@@ -3,6 +3,7 @@
     padding: 0%;
 }
 
+/*cabeçalho*/
 header {
     margin: auto;
     max-width: 1844px;
@@ -140,35 +141,116 @@ h3 {
 /*sobre mim*/
 
 .sobremim {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
     max-width: 1844px;
-    height: 695px;
+    height: 1000px;
     background-color: #975F6D;
 }
 
-#h1SM {
-    font-size: 50px;
-    margin-top: 50px;
-}
-
-.elementosSM > div > p {
-    color: white;
-    height: 100px;
-    width: 800px;
-    font-size: 20px;
-
-}
-
-.elementosSM > div {
-    display: flex;
-    align-items:flex-start;
-    flex-direction: column;
-    
-}
 
 .elementosSM {
     display: flex;
-    flex-direction: column;
-    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+
 }
+
+
+#h1SM {
+    font-size: 50px;
+    text-align: center;
+}
+
+.paragrafoSM {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100px;
+    width: 1000px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .sobremim {
+        height: 1500px;
+}
+}
+
+/*curiosidades*/
+
+.curiosidades {
+    margin: auto;
+    max-width: 1844px;
+    height: 1000px;
+    background-image: url('imagens/fundoHero.png');
+
+
+}
+
+.elementosCuriosidades {
+    background-color: rgba(0, 0, 0, 0.473);
+    max-width: 1844px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#curiosidades {
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    width: 250px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardDiv {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: #975F6D;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: solid 1px #000000;
+    margin: 10px;
+}
+
+.imgCard {
+    max-height: 150px;
+}
+
+.textCard {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
 
