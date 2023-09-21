@@ -239,18 +239,164 @@ h4 {
 }
 
 .imgCard {
-    max-height: 150px;
+    height: 150px;
+    width: 180px;
 }
 
 .textCard {
     margin-bottom: 50px;
 }
 
+@media (max-width: 800px) {
+    .curiosidades {
+        height: 2000px;
+}
+
+    .elementosCuriosidades {
+        height: 2000px;
+
+    }
+}
+
+/*educação*/
+.educação {
+    max-width: 1844px;
+    height: 1024px;
+    background-color:#975F6D;
+    margin: auto;
+}
+
+.elementosEducação > h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.table {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.table > table {
+    color: white;
+    border: solid 2px white;
+    border-collapse: collapse;
+    max-width: 1000px;
+}
+
+.table > table > tbody > tr > td {
+    background-color: #8c5e68;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+}
+
+.table > table > thead > tr > th {
+    background-color: #51323a;
+    padding: 30px;
+    font-size: 40px;
+    
+}
+
+/*causos*/
+
+.causos {
+    margin: auto;
+    max-width: 1844px;
+    height: 700px;
+    background-image: url('imagens/fundoHero.png');
+}
+
+.elementosCausos {
+    background-color: rgba(0, 0, 0, 0.473);
+    max-width: 1844px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+#causos {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#pdeCausos {
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#aiquedó {
+    text-decoration: none;
+    color:rgb(98, 34, 34);
+    border: solid 1px rgb(98, 34, 34);
+    margin: 2px;
 
 
+}
+
+@media (max-width: 800px) {
+  
+    #pdeCausos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        padding-top: 200px;
+    }
 
 
+}
 
+.habilidades {
+    margin: auto;
+    max-width: 1844px;
+    height: 200px;
+    background-color: #E794A8;
+
+}
+
+.elementosH {
+    color:#ffffff
+}
+
+#habilidades{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#pdeH {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #975F6D;
+}
+
+#ctt {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.ftt {
+    display: flex;
+    flex-direction: row;
+    color:#ffffff
+}
 
 
 
