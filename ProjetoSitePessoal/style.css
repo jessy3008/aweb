@@ -383,6 +383,8 @@ h4 {
 }
 
 footer {
+    margin: auto;
+    max-width: 1844px;
     background-color: #975F6D;
 }
 
@@ -394,8 +396,10 @@ footer {
 
 .ftt {
     display: flex;
-    flex-direction: row;
-    color:#ffffff
+    color:#ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
